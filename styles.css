@@ -1,0 +1,125 @@
+img {
+    width: 50%;
+height: auto;
+}
+
+/* Estilo para as colunas */
+.col-md-6 {
+padding: 0 15px; /* Espaçamento interno das colunas */
+}
+
+/* Estilo para as seções individuais */
+section {
+background-color: #FFFFDD;
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 20px;
+}
+
+/* Estilo para o título das seções */
+section h2 {
+margin-top: 0;
+margin-bottom: 20px;
+font-size: 24px;
+color: #FFFFDD;
+}
+/* Estilo para a seção */
+section {
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 20px;
+margin-bottom: 20px;
+}
+
+/* Estilo para o título da seção */
+section h2 {
+margin-top: 0;
+margin-bottom: 20px;
+font-size: 24px;
+color: #333;
+}
+/* Estilo para a seção */
+.section-container {
+  display: flex;
+justify-content: space-between; /* Distribui os itens igualmente ao longo do eixo principal (horizontalmente) */
+align-items: center; /* Alinha os itens verticalmente */
+}
+/* Estilo para os elementos de clique */
+.section-container a {
+margin-right: 10px;
+/* Espaçamento entre os elementos de clique */
+padding: 10px 20px; /* Espaçamento interno dos elementos de clique */
+background-color: #FFFFDD;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+
+/* Estilo para os elementos de clique no hover */
+.section-container a:hover {
+background-color: #555;
+}
+/* Estilo para o cabeçalho */
+header {
+background-color: #FFFFDD; 
+}
+
+/* Estilo para as seções */
+section {
+background-color: #FFFF50; 
+}
+
+/* Estilo para os botões */
+.btn {
+background-color: #0000ff; /* Azul */
+color: #fff; /* Texto branco */
+}
+
+/* Estilo para o rodapé */
+footer {
+background-color: #FFFFDD; /* Amarelo */
+}
+/* Estilo para o cabeçalho */
+header {
+background-color: #FFFFAA;
+}
+
+/* Estilo para as seções */
+section {
+background-color: peachpuff; /* Verde */
+}
+
+/* Estilo para os botões */
+.btn {
+background-color: #0000ff; /* Azul */
+color: #fff; /* Texto branco */
+}
+
+/* Estilo para o rodapé */
+footer {
+background-color: peachpuff; /* Amarelo */
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+/* Estilo para o cabeçalho em dispositivos móveis */
+header {
+    background-color: whitesmoke; 
+}
+
+/* Estilo para as seções em dispositivos móveis */
+section {
+    background-color: white; /* Amarelo claro */
+}
+
+/* Estilo para os botões em dispositivos móveis */
+.btn {
+    background-color: #9900cc; /* Roxo */
+}
+
+/* Estilo para o rodapé em dispositivos móveis */
+footer {
+    background-color: #00ccff; /* Azul claro */
+}
+}
